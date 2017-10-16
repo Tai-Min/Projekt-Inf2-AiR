@@ -1,0 +1,10 @@
+./assets/menu-background.jpg
+0
+0
+800
+600
+
+800
+0
+800
+600
