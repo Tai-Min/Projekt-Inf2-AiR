@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PROJEKT" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PROJEKT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PROJEKT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="game elements/characters/arrow.cpp" />
+		<Unit filename="game elements/characters/arrow.h" />
+		<Unit filename="game elements/characters/enemy.cpp" />
+		<Unit filename="game elements/characters/enemy.h" />
+		<Unit filename="game elements/characters/player.cpp" />
+		<Unit filename="game elements/characters/player.h" />
+		<Unit filename="game elements/common/ganimation.cpp" />
+		<Unit filename="game elements/common/ganimation.h" />
+		<Unit filename="game elements/common/gimage.cpp" />
+		<Unit filename="game elements/common/gimage.h" />
+		<Unit filename="game elements/common/kevent.cpp" />
+		<Unit filename="game elements/common/kevent.h" />
+		<Unit filename="game elements/common/timer.cpp" />
+		<Unit filename="game elements/common/timer.h" />
+		<Unit filename="game elements/debug.cpp" />
+		<Unit filename="game elements/debug.h" />
+		<Unit filename="game elements/menu/choice.h" />
+		<Unit filename="game elements/menu/difficulty.cpp" />
+		<Unit filename="game elements/menu/difficulty.h" />
+		<Unit filename="game elements/menu/exit.cpp" />
+		<Unit filename="game elements/menu/exit.h" />
+		<Unit filename="game elements/menu/gameworld.cpp" />
+		<Unit filename="game elements/menu/gameworld.h" />
+		<Unit filename="game elements/menu/help.cpp" />
+		<Unit filename="game elements/menu/help.h" />
+		<Unit filename="game elements/menu/info.cpp" />
+		<Unit filename="game elements/menu/info.h" />
+		<Unit filename="game elements/menu/menu.cpp" />
+		<Unit filename="game elements/menu/menu.h" />
+		<Unit filename="game elements/menu/result.cpp" />
+		<Unit filename="game elements/menu/result.h" />
+		<Unit filename="game elements/tiles/barrel.cpp" />
+		<Unit filename="game elements/tiles/barrel.h" />
+		<Unit filename="game elements/tiles/carttile.cpp" />
+		<Unit filename="game elements/tiles/carttile.h" />
+		<Unit filename="game elements/tiles/coin.cpp" />
+		<Unit filename="game elements/tiles/coin.h" />
+		<Unit filename="game elements/tiles/crate.cpp" />
+		<Unit filename="game elements/tiles/crate.h" />
+		<Unit filename="game elements/tiles/cratestack.cpp" />
+		<Unit filename="game elements/tiles/cratestack.h" />
+		<Unit filename="game elements/tiles/gameobject.cpp" />
+		<Unit filename="game elements/tiles/gameobject.h" />
+		<Unit filename="game elements/tiles/groundtile.cpp" />
+		<Unit filename="game elements/tiles/groundtile.h" />
+		<Unit filename="game elements/tiles/house1.cpp" />
+		<Unit filename="game elements/tiles/house1.h" />
+		<Unit filename="game elements/tiles/house2.cpp" />
+		<Unit filename="game elements/tiles/house2.h" />
+		<Unit filename="game elements/tiles/house3.cpp" />
+		<Unit filename="game elements/tiles/house3.h" />
+		<Unit filename="game elements/tiles/lamp.cpp" />
+		<Unit filename="game elements/tiles/lamp.h" />
+		<Unit filename="game elements/tiles/portal.cpp" />
+		<Unit filename="game elements/tiles/portal.h" />
+		<Unit filename="game elements/tiles/well.cpp" />
+		<Unit filename="game elements/tiles/well.h" />
+		<Unit filename="game elements/tiles/wood.cpp" />
+		<Unit filename="game elements/tiles/wood.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
