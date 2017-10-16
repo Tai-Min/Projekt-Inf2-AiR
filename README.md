@@ -9,4 +9,8 @@ tiles -><br />
 	barrel.h/.cpp<br />
 	gameobject.h/.cpp<br />
 w common/characters wszystko powinno byc okomentowane<br />
-game.h/.cpp jest okomentowane
+game.h/.cpp jest okomentowane<br />
+
+pomijając standardowe biblioteki dołączone do winBGim, należy dołączyć także <br />
+-lmsimg32 <br />
+dla poprawionej funkcji odpowiedzialnej za wyświetlanie grafiki
