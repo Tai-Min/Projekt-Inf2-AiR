@@ -1,4 +1,4 @@
-Sprite użyte w projekcie są na licencji CC-BY-3.0<br />
+# Sprite użyte w projekcie są na licencji CC-BY-3.0<br />
 https://opengameart.org/content/gothicvania-town<br />
 https://opengameart.org/content/torch-0<br />
 https://opengameart.org/content/spinning-gold-coin<br />
