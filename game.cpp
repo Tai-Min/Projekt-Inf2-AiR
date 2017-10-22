@@ -122,6 +122,7 @@ bool Game::gameTask(bool inputEnabled)
         if(keyboard.F2Pressed())
         {
             game->save();
+            resetGameTimers = 1;
             return 1;
         }
         //wczytaj gre
