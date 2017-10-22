@@ -96,10 +96,14 @@ bool Arrow::show(int x)
 void Arrow::decide()
 {
     res now = (clock::now() - start_time);
+
+
+    float val  = now.count()-A*now.count()*now.count()/2;
     if(direction == 1)
-        posx-=15-A*now.count()*now.count()/2;
+        posx=posx-val;
     else
-        posx+=15-A*now.count()*now.count()/2;
+        posx=posx+val;
+        start_time = clock::now();
 }
 
 
