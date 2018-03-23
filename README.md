@@ -22,7 +22,7 @@ w Settings -> Compiler -> Compiler Settings -> Other Options dopisać: <br />
 + -Wno-write-strings <br />
 
 w Settings -> Compiler -> Linker settings dopisać: <br />
-+ Wl,--enable-auto-import
++ -Wl,--enable-auto-import
 + -lbgi
 + -lgdi32
 + -lcomdlg32
