@@ -2,6 +2,8 @@
 
 Gra zrobiona na przedmiot Informatyka 2 na 3 semestrze Automatyki i Robotyki.
 
+[Prezentacja na YouTube](https://www.youtube.com/watch?v=uYMsG1x2PsU "Gra")
+
 Jako że większość obiektów w folderze menu i tiles jest do siebie podobna, komentarze umieściłem tylko w niektórych plikach. Resztę można bez problemu wywnioskować na podstawie okomentowanych plików. <br />
 Pliki, w ktorych sa komentarze:
 #### Folder menu
