@@ -1,6 +1,6 @@
 # Projekt-Inf2-AiR
 
-Gra zrobiona na przedmiot Informatyka 2 na 3 semestrze Automatyki i Robotyki.
+Gra zrobiona na przedmiot Informatyka 2 na trzecim semestrze Automatyki i Robotyki.
 
 [Prezentacja na YouTube](https://www.youtube.com/watch?v=uYMsG1x2PsU "Gra")
 
