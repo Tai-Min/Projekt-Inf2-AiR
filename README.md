@@ -18,10 +18,10 @@ game.h/.cpp jest okomentowane. <br />
 ## Kompilacja
 
 Przeprowadzona w Code::Blocks <br />
-w Settings -> Compiler -> Compiler Settings -> Other Options dopisać: <br />
+W Settings -> Compiler -> Compiler Settings -> Other compiler options dopisać:
 + -Wno-write-strings <br />
 
-w Settings -> Compiler -> Linker settings dopisać: <br />
+W Settings -> Compiler -> Linker settings -> Other linker options dopisać:
 + -Wl,--enable-auto-import
 + -lbgi
 + -lgdi32
@@ -31,5 +31,5 @@ w Settings -> Compiler -> Linker settings dopisać: <br />
 + -lole32
 + -lmsimg32
 
-w Settings -> Search Directories -> Compiler dodać ścieżkę do folderu "include" projektu. <br />
+W Settings -> Search Directories -> Compiler dodać ścieżkę do folderu "include" projektu. <br />
 W Settings -> Search Directories -> Linker dodać ścieżkę do folderu "lib" projektu.
