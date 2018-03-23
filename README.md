@@ -3,11 +3,12 @@
 Gra zrobiona na przedmiot Informatyka 2 na 3 semestrze Automatyki i Robotyki.
 
 Jako że większość obiektów w folderze menu i tiles jest do siebie podobna, komentarze umieściłem tylko w niektórych plikach. Resztę można bez problemu wywnioskować na podstawie okomentowanych plików. <br />
-Pliki, w ktorych sa komentarze: <br />
-Folder menu
+Pliki, w ktorych sa komentarze:
+#### Folder menu
 + choice.h
-+ difficuly.h/.cpp <br />
-Folder tiles 
++ difficuly.h/.cpp
+
+#### Folder tiles 
 + barrel.h/.cpp
 + gameobject.h/.cpp
 
@@ -30,5 +31,5 @@ w Settings -> Compiler -> Linker settings dopisać: <br />
 + -lole32
 + -lmsimg32
 
-w Settings -> Search Directories -> Compiler dodać ścieżkę do folderu "include" projektu.
-W Serrings -> Search Directories -> Linker dodać ścieżkę do folderu "lib" projektu.
+w Settings -> Search Directories -> Compiler dodać ścieżkę do folderu "include" projektu. <br />
+W Settings -> Search Directories -> Linker dodać ścieżkę do folderu "lib" projektu.
